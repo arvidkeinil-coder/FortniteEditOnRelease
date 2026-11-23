@@ -1,10 +1,11 @@
-$~f:: ; g
+$~f:: ;f
         Suspend, Off
         return
 
 Suspend, On
         return
     $~LButton Up::
-send, {g} ; g
+send, {f} ; f
         Suspend, On
         return
+
